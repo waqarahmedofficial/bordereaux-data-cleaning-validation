@@ -1,0 +1,67 @@
+row,cert_ref,field,check,raw_value,corrected_value,rule
+1,HLB/2024/0160,Net Premium to London (Original Currency),CHK-12 Premium arithmetic,2078.12,1578.12,"CR0065: net = gross premium paid this time - commission amount - total taxes and levies (all deductions listed, per user guide)"
+1,HLB/2024/0160,Net Premium to London (Settlement Currency),CHK-13 FX completeness & arithmetic,2078.12,1578.12,"Settlement currency equals original currency, so the settlement amount follows the corrected original-currency net premium"
+5,HLB/2024/0053,Unique Market Reference (UMR),CHK-01 UMR format & contract match,b0876hlb250001x,B0876HLB250001X,"CR0005; user-guide UMR format (starts 'B', alphanumeric, max 17 chars, no punctuation); single-binder file corrected to contract UMR"
+6,HLB/2024/0118,Commission Amount,CHK-12 Premium arithmetic,709.41,758.16,CR0061/CR0062: commission amount = gross premium paid this time x commission %
+6,HLB/2024/0118,Net Premium to London (Original Currency),CHK-12 Premium arithmetic,1959.32,1910.57,"CR0065: net = gross premium paid this time - commission amount - total taxes and levies (all deductions listed, per user guide)"
+6,HLB/2024/0118,Net Premium to London (Settlement Currency),CHK-13 FX completeness & arithmetic,1959.32,1910.57,"Settlement currency equals original currency, so the settlement amount follows the corrected original-currency net premium"
+8,HLB/2024/0104,Risk Code,"CHK-06 Risk code present, valid & authorised",,B5,CR0016; derived from the binder section's authorised code set (Lloyd's Risk Code Guidance) + location of risk
+14,HLB/2024/0036,Risk Code,"CHK-06 Risk code present, valid & authorised",,HP,CR0016; derived from the binder section's authorised code set (Lloyd's Risk Code Guidance) + location of risk
+21,HLB/2024/0151,Section No,CHK-04 Section present (multi-section binder),,3,CR0007 + v5.2/Bulletin Y5261 section requirement; derived from class of business
+24,HLB/2024/0149,Risk Code,"CHK-06 Risk code present, valid & authorised",HP ,HP,Lloyd's Risk Code Guidance: format normalised (case/punctuation) and validated against the section's authorised set
+26,HLB/2024/0005,Section No,CHK-04 Section present (multi-section binder),,2,CR0007 + v5.2/Bulletin Y5261 section requirement; derived from class of business
+27,HLB/2024/0009,Unique Market Reference (UMR),CHK-01 UMR format & contract match,B0876 HLB250001X,B0876HLB250001X,"CR0005; user-guide UMR format (starts 'B', alphanumeric, max 17 chars, no punctuation); single-binder file corrected to contract UMR"
+28,HLB/2024/0137,Risk Code,"CHK-06 Risk code present, valid & authorised",,B5,CR0016; derived from the binder section's authorised code set (Lloyd's Risk Code Guidance) + location of risk
+33,HLB/2024/0001,Section No,CHK-04 Section present (multi-section binder),,3,CR0007 + v5.2/Bulletin Y5261 section requirement; derived from class of business
+34,HLB/2024/0136,Year of Account,CHK-07 Year of account = binder YoA,2025,2024,"CR0010: year of account = year the binding authority incepted (2024), not the policy issue year"
+35,HLB/2024/0006,Risk Code,"CHK-06 Risk code present, valid & authorised",,B5,CR0016; derived from the binder section's authorised code set (Lloyd's Risk Code Guidance) + location of risk
+39,HLB/2024/0036,Original Currency,CHK-11 Currency codes (ISO 4217),£,GBP,CR0020; ISO 4217 three-letter code — unambiguous abbreviation/symbol normalised
+43,HLB/2024/0155,Unique Market Reference (UMR),CHK-01 UMR format & contract match,B0876-HLB250001X,B0876HLB250001X,"CR0005; user-guide UMR format (starts 'B', alphanumeric, max 17 chars, no punctuation); single-binder file corrected to contract UMR"
+44,HLB/2024/0134,Original Currency,CHK-11 Currency codes (ISO 4217),£,GBP,CR0020; ISO 4217 three-letter code — unambiguous abbreviation/symbol normalised
+50,HLB/2024/0051,Year of Account,CHK-07 Year of account = binder YoA,2025,2024,"CR0010: year of account = year the binding authority incepted (2024), not the policy issue year"
+51,HLB/2024/0049,Risk Code,"CHK-06 Risk code present, valid & authorised",,B5,CR0016; derived from the binder section's authorised code set (Lloyd's Risk Code Guidance) + location of risk
+55,HLB/2024/0077,Net Premium to London (Settlement Currency),CHK-13 FX completeness & arithmetic,1142.56,1174.11,CR0067/CR0068: settlement net = original-currency net / rate of exchange (guide convention)
+57,HLB/2024/0130,Original Currency,CHK-11 Currency codes (ISO 4217),£,GBP,CR0020; ISO 4217 three-letter code — unambiguous abbreviation/symbol normalised
+62,HLB/2024/0117,Year of Account,CHK-07 Year of account = binder YoA,2025,2024,"CR0010: year of account = year the binding authority incepted (2024), not the policy issue year"
+65,HLB/2024/0112,Net Premium to London (Original Currency),CHK-12 Premium arithmetic,2559.75,2440.85,"CR0065: net = gross premium paid this time - commission amount - total taxes and levies (all deductions listed, per user guide)"
+65,HLB/2024/0112,Net Premium to London (Settlement Currency),CHK-13 FX completeness & arithmetic,2559.75,2440.85,"Settlement currency equals original currency, so the settlement amount follows the corrected original-currency net premium"
+70,HLB/2024/0044,Section No,CHK-04 Section present (multi-section binder),,2,CR0007 + v5.2/Bulletin Y5261 section requirement; derived from class of business
+73,HLB/2024/0124,Risk Code,"CHK-06 Risk code present, valid & authorised",w3,W3,Lloyd's Risk Code Guidance: format normalised (case/punctuation) and validated against the section's authorised set
+77,HLB/2024/0068,Risk Code,"CHK-06 Risk code present, valid & authorised",HP ,HP,Lloyd's Risk Code Guidance: format normalised (case/punctuation) and validated against the section's authorised set
+80,HLB/2024/0027,Original Currency,CHK-11 Currency codes (ISO 4217),GBp,GBP,CR0020; ISO 4217 three-letter code — unambiguous abbreviation/symbol normalised
+87,HLB/2024/0062,Unique Market Reference (UMR),CHK-01 UMR format & contract match,B0876HLB250001,B0876HLB250001X,"CR0005; user-guide UMR format (starts 'B', alphanumeric, max 17 chars, no punctuation); single-binder file corrected to contract UMR"
+88,HLB/2024/0018,Risk Code,"CHK-06 Risk code present, valid & authorised",B_4,B4,Lloyd's Risk Code Guidance: format normalised (case/punctuation) and validated against the section's authorised set
+90,HLB/2024/0035,Unique Market Reference (UMR),CHK-01 UMR format & contract match,B0877HLB250001X,B0876HLB250001X,"CR0005; user-guide UMR format (starts 'B', alphanumeric, max 17 chars, no punctuation); single-binder file corrected to contract UMR"
+98,HLB/2024/0124,Net Premium to London (Original Currency),CHK-12 Premium arithmetic,3108.10,3383.50,"CR0065: net = gross premium paid this time - commission amount - total taxes and levies (all deductions listed, per user guide)"
+98,HLB/2024/0124,Net Premium to London (Settlement Currency),CHK-13 FX completeness & arithmetic,3108.10,3383.50,"Settlement currency equals original currency, so the settlement amount follows the corrected original-currency net premium"
+99,HLB/2024/0022,Unique Market Reference (UMR),CHK-01 UMR format & contract match,B0876HLB25001X,B0876HLB250001X,"CR0005; user-guide UMR format (starts 'B', alphanumeric, max 17 chars, no punctuation); single-binder file corrected to contract UMR"
+100,HLB/2024/0071,Section No,CHK-04 Section present (multi-section binder),,1,CR0007 + v5.2/Bulletin Y5261 section requirement; derived from class of business
+103,HLB/2024/0090,Net Premium to London (Settlement Currency),CHK-13 FX completeness & arithmetic,9703.77,9735.32,CR0067/CR0068: settlement net = original-currency net / rate of exchange (guide convention)
+109,HLB/2024/0065,Section No,CHK-04 Section present (multi-section binder),,1,CR0007 + v5.2/Bulletin Y5261 section requirement; derived from class of business
+114,HLB/2024/0092,Risk Code,"CHK-06 Risk code present, valid & authorised",,W3,CR0016; derived from the binder section's authorised code set (Lloyd's Risk Code Guidance) + location of risk
+117,HLB/2024/0099,Unique Market Reference (UMR),CHK-01 UMR format & contract match,B0876HLB250010X,B0876HLB250001X,"CR0005; user-guide UMR format (starts 'B', alphanumeric, max 17 chars, no punctuation); single-binder file corrected to contract UMR"
+123,HLB/2024/0033,Year of Account,CHK-07 Year of account = binder YoA,2023,2024,"CR0010: year of account = year the binding authority incepted (2024), not the policy issue year"
+124,HLB/2024/0139,Risk Code,"CHK-06 Risk code present, valid & authorised",,HP,CR0016; derived from the binder section's authorised code set (Lloyd's Risk Code Guidance) + location of risk
+130,HLB/2024/0098,Year of Account,CHK-07 Year of account = binder YoA,2025,2024,"CR0010: year of account = year the binding authority incepted (2024), not the policy issue year"
+134,HLB/2024/0142,Year of Account,CHK-07 Year of account = binder YoA,2025,2024,"CR0010: year of account = year the binding authority incepted (2024), not the policy issue year"
+136,HLB/2024/0007,Original Currency,CHK-11 Currency codes (ISO 4217),GBp,GBP,CR0020; ISO 4217 three-letter code — unambiguous abbreviation/symbol normalised
+142,HLB/2024/0076,Risk Code,"CHK-06 Risk code present, valid & authorised",b5,B5,Lloyd's Risk Code Guidance: format normalised (case/punctuation) and validated against the section's authorised set
+143,HLB/2024/0039,Unique Market Reference (UMR),CHK-01 UMR format & contract match,B0876HLB250001XX,B0876HLB250001X,"CR0005; user-guide UMR format (starts 'B', alphanumeric, max 17 chars, no punctuation); single-binder file corrected to contract UMR"
+144,HLB/2024/0105,Year of Account,CHK-07 Year of account = binder YoA,2025,2024,"CR0010: year of account = year the binding authority incepted (2024), not the policy issue year"
+148,HLB/2024/0119,Commission Amount,CHK-12 Premium arithmetic,213.02,305.27,CR0061/CR0062: commission amount = gross premium paid this time x commission %
+148,HLB/2024/0119,Net Premium to London (Original Currency),CHK-12 Premium arithmetic,1130.18,1037.93,"CR0065: net = gross premium paid this time - commission amount - total taxes and levies (all deductions listed, per user guide)"
+148,HLB/2024/0119,Net Premium to London (Settlement Currency),CHK-13 FX completeness & arithmetic,1130.18,1037.93,"Settlement currency equals original currency, so the settlement amount follows the corrected original-currency net premium"
+150,HLB/2024/0082,Risk Code,"CHK-06 Risk code present, valid & authorised",B-5,B5,Lloyd's Risk Code Guidance: format normalised (case/punctuation) and validated against the section's authorised set
+165,HLB/2024/0015,Year of Account,CHK-07 Year of account = binder YoA,2023,2024,"CR0010: year of account = year the binding authority incepted (2024), not the policy issue year"
+168,HLB/2024/0097,Risk Code,"CHK-06 Risk code present, valid & authorised",,W3,CR0016; derived from the binder section's authorised code set (Lloyd's Risk Code Guidance) + location of risk
+169,HLB/2024/0156,Commission Amount,CHK-12 Premium arithmetic,5327.06,5189.56,CR0061/CR0062: commission amount = gross premium paid this time x commission %
+169,HLB/2024/0156,Net Premium to London (Original Currency),CHK-12 Premium arithmetic,15431.16,15568.66,"CR0065: net = gross premium paid this time - commission amount - total taxes and levies (all deductions listed, per user guide)"
+169,HLB/2024/0156,Net Premium to London (Settlement Currency),CHK-13 FX completeness & arithmetic,13302.72,13421.26,CR0067/CR0068: settlement net = original-currency net / rate of exchange (guide convention)
+170,HLB/2024/0072,Risk Code,"CHK-06 Risk code present, valid & authorised",B 5,B5,Lloyd's Risk Code Guidance: format normalised (case/punctuation) and validated against the section's authorised set
+177,HLB/2024/0031,Section No,CHK-04 Section present (multi-section binder),,1,CR0007 + v5.2/Bulletin Y5261 section requirement; derived from class of business
+184,HLB/2024/0003,Commission Amount,CHK-12 Premium arithmetic,124.26,216.51,CR0061/CR0062: commission amount = gross premium paid this time x commission %
+184,HLB/2024/0003,Net Premium to London (Original Currency),CHK-12 Premium arithmetic,828.39,736.14,"CR0065: net = gross premium paid this time - commission amount - total taxes and levies (all deductions listed, per user guide)"
+184,HLB/2024/0003,Net Premium to London (Settlement Currency),CHK-13 FX completeness & arithmetic,828.39,736.14,"Settlement currency equals original currency, so the settlement amount follows the corrected original-currency net premium"
+191,HLB/2024/0097,Year of Account,CHK-07 Year of account = binder YoA,2023,2024,"CR0010: year of account = year the binding authority incepted (2024), not the policy issue year"
+196,HLB/2024/0107,Year of Account,CHK-07 Year of account = binder YoA,2025,2024,"CR0010: year of account = year the binding authority incepted (2024), not the policy issue year"
+197,HLB/2024/0079,Original Currency,CHK-11 Currency codes (ISO 4217),gbp,GBP,CR0020; ISO 4217 three-letter code — unambiguous abbreviation/symbol normalised
